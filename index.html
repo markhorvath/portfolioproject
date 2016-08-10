@@ -2,13 +2,16 @@
 <html>
 <head>
 
-    <meta name="Portfolio" content="Mark Horvath's Resume">
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scalae=1.0, initial-scale=1.0, user-scalable=yes">
-
+    <meta name="Portfolio" content="Mark Horvath's Resume">
     <title>Mark Horvath's Portfolio</title>
 
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+
 
 </head>
 
@@ -17,13 +20,19 @@
 
         <header class="row" id="header">
             <div class="col-md-6">
-                <img src="#" id="logo">
+                <img class="title-logo" src="images/logo.svg" alt="Udacity logo" id="logo">
             </div>
             <div class="col-md-6 text-right text-uppercase" id="title">
-                <h1>Mark Horvath</h1>
-                <h3>Web Developer</h4>
+                <h1 class="title-super text-thin">Mark Horvath</h1>
+                <h4>Web Developer</h4>
             </div>
         </header>
+
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
 
         <div class="row">
             <div class="col-md-12">
@@ -33,25 +42,25 @@
 
         <section class="row">
             <div class="col-md-12">
-                <h2>Featured Work</h2>
+                <h2 class="text-muted">Featured Work</h2>
             </div>
         </section>
-        <section class="row" id="portfolio">
+        <section class="row text-center" id="portfolio">
             <div class="col-md-4">
-                <img class="appify" src="http://placehold.it/300x200">
-                <h3>Appify</h3>
-                <p><a href="##">Link to project</a></p>
-            </div>
-
-            <div class="col-md-4">
-                <img class="appify" src="http://placehold.it/300x200">
-                <h3>Sunflower</h3>
+                <img class="img-responsive" src="images/puppy2.jpg">
+                <h3 class="text-uppercase">Appify</h3>
                 <p><a href="##">Link to project</a></p>
             </div>
 
             <div class="col-md-4">
                 <img class="img-responsive" src="http://placehold.it/300x200">
-                <h3>Bokeh</h3>
+                <h3 class="text-uppercase">Sunflower</h3>
+                <p><a href="##">Link to project</a></p>
+            </div>
+
+            <div class="col-md-4">
+                <img class="img-responsive" src="http://placehold.it/300x200">
+                <h3 class="text-uppercase">Bokeh</h3>
                 <p><a href="##">Link to project</a></p>
             </div>
         </section>
