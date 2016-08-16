@@ -3,6 +3,10 @@ body {
     font-family: 'Lato', 'Roboto', sans-serif;
     color: #2d3c49;
     font-weight: 300;
+    background-color: #f0ffff;
+}
+hr {
+    border: 3px solid #7d97ad;
 }
 .text-muted {
     color: #7d97ad;
@@ -10,9 +14,17 @@ body {
 .text-thin {
     font-weight: 100;
 }
+.text-medium {
+    text-decoration-color: #2d3c49;
+    font-size: 40px;
+}
 .title-super {
     font-size: 60px;
 }
 .title-logo {
     margin-top: 20px;
+}
+.main-img {
+    width: 100%;
+    max-height: 600px;
 }
